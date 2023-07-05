@@ -10,3 +10,13 @@
 -npm i react-router-dom      ...install in the VSCode terminal
 -create route for home screen
 -create router for product sreen
+7. Create Node.JS Server
+-run npm init in root folder
+-update package.json set type: module
+-add start command as node backend/server.js
+-require express
+-create route for / return backend is ready.
+-move products.js from frontend to backend
+-create route for /api/products
+-return products
+-run npm start
