@@ -29,3 +29,8 @@
 -define reducer
 -update fetch data
 -get state from useReducer
+10. Add bootstrap UI Framework
+-npm install bootstrap
+-npm install react-bootstrap
+-npm install react-router-bootstrap
+-update App.js as well as index.js
