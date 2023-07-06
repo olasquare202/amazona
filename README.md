@@ -20,3 +20,12 @@
 -create route for /api/products
 -return products
 -run npm start
+8. Fetch Products From Backend
+-set proxy in package.json
+-npm install axios
+-use state hook
+-use reducer hook
+9. Manage State By Reducer Hook
+-define reducer
+-update fetch data
+-get state from useReducer

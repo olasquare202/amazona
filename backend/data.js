@@ -1,61 +1,103 @@
-
 //http://localhost:5000/api/products
 const data = {
-    products: [
-        {
-            name: 'Nike Slime Shirt',
-            slug: 'nike-slim-shirt',
-            category: 'Shirts',
-            image: '/images/p1.jpg',
-            price: 120,
-            countInStock: 10,
-            brand: 'Nike',
-            rating: 4.5,
-            numReviews: 10,
-            description: 'High quality shirt'
-
-        },
-        {
-            name: 'Adidas Fit Shirt',
-            slug: 'adidas-fit-shirt',
-            category: 'Shirts',
-            image: '/images/p2.jpg',
-            price: 250,
-            countInStock: 20,
-            brand: 'Adidas',
-            rating: 4.0,
-            numReviews: 10,
-            description: 'High quality shirt'
-
-        },
-        {
-            name: 'Nike Slime Pant',
-            slug: 'nike-slim-pant',
-            category: 'Pants',
-            image: '/images/p3.jpg',
-            price: 25,
-            countInStock: 15,
-            brand: 'Nike',
-            rating: 4.5,
-            numReviews: 14,
-            description: 'High quality pant'
-
-        },
-        {
-            name: 'Adidas Fit Pant',
-            slug: 'adidas-fit-pant',
-            category: 'Pants',
-            image: '/images/p4.jpg',
-            price: 65,
-            countInStock: 5,
-            brand: 'Puma',
-            rating: 4.5,
-            numReviews: 10,
-            description: 'High quality pant'
-
-        },
-    ]
-}
-
+  products: [
+    {
+      name: 'Nike Slime Shirt',
+      slug: 'nike-slim-shirt',
+      category: 'Shirts',
+      image: '/images/p1.jpg',
+      price: 120,
+      countInStock: 10,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'High quality shirt',
+    },
+    {
+      name: 'Adidas Fit Shirt',
+      slug: 'adidas-fit-shirt',
+      category: 'Shirts',
+      image: '/images/p2.jpg',
+      price: 250,
+      countInStock: 20,
+      brand: 'Adidas',
+      rating: 4.0,
+      numReviews: 10,
+      description: 'High quality shirt',
+    },
+    {
+      name: 'Nike Slime Pant',
+      slug: 'nike-slim-pant',
+      category: 'Pants',
+      image: '/images/p3.jpg',
+      price: 25,
+      countInStock: 15,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 14,
+      description: 'High quality pant',
+    },
+    {
+      name: 'Adidas Fit Pant',
+      slug: 'adidas-fit-pant',
+      category: 'Pants',
+      image: '/images/p4.jpg',
+      price: 65,
+      countInStock: 5,
+      brand: 'Puma',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'High quality pant',
+    },
+    {
+      name: 'Nice Polo Shirt',
+      slug: 'burberry-fit-shirt',
+      category: 'Shirts',
+      image: '/images/p5.jpg',
+      price: 100,
+      countInStock: 10,
+      brand: 'Puma',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'High quality shirt',
+    },
+    {
+      name: 'Plain Fit Shirt',
+      slug: 'plain-fit-shirt',
+      category: 'Shirts',
+      image: '/images/p6.jpg',
+      price: 165,
+      countInStock: 15,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 14,
+      description: 'High quality shirt',
+    },
+    {
+      name: 'Tom Exquisite Shirt',
+      slug: 'tom-fit-shirt',
+      category: 'Shirts',
+      image: '/images/p7.jpg',
+      price: 90,
+      countInStock: 17,
+      brand: 'Tom',
+      rating: 4.5,
+      numReviews: 13,
+      description: 'High quality shirt',
+    },
+    {
+      name: 'Boss Man Shirt',
+      slug: 'boss-fit-shirt',
+      category: 'Shirts',
+      image: '/images/p8.jpg',
+      price: 120,
+      countInStock: 26,
+      brand: 'Boss',
+      rating: 4.5,
+      numReviews: 13,
+      description: 'Popular Demand Shirt',
+    },
+  ],
+};
 
 export default data;
