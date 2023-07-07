@@ -8,9 +8,9 @@ import { LinkContainer } from 'react-router-bootstrap';
 function App() {
   return (
     <BrowserRouter>
-      <div className='d-flex flex-column site-container' >
+      <div className="d-flex flex-column site-container">
         <header>
-           {/* add bootstrap navbar  */}
+          {/* add bootstrap navbar  */}
           <Navbar bg="dark" variant="dark">
             <Container>
               <LinkContainer to="/">
@@ -21,7 +21,7 @@ function App() {
           {/* <Link to="/">amazona</Link> */}
         </header>
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
