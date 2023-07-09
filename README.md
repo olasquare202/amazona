@@ -49,6 +49,9 @@
 -create React Context
 -define reducer
 -create store provider
--implement add to cart button click handler
+-implement add to cart button click handler.
+15. Complete Add To Cart
+-check exist item in the cart
+-check count in stock in backend
 
 
