@@ -60,6 +60,10 @@
 17. Complete Cart Screen
 -click handler for inc/dec item
 -click handler for remove item
--click handler for checkout
+-click handler for checkout.
+18. Create SignIn Screen
+-create signIn form
+-add email and password
+-add signIn button
 
 
