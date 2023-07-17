@@ -1,5 +1,21 @@
+import bcrypt from 'bcryptjs';
+
 //http://localhost:5000/api/products
 const data = {
+  users: [
+    {
+      name: 'Olaoluwa',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'John',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
       //_id: '1',
